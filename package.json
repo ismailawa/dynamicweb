@@ -1,0 +1,32 @@
+{
+  "name": "dynamicweb",
+  "version": "1.0.0",
+  "description": "this is our dynamic web site project to create todo application",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismailawa/dynamicweb.git"
+  },
+  "keywords": [
+    "web",
+    "dynamic",
+    "node",
+    "express"
+  ],
+  "author": "ismailawa aliyu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ismailawa/dynamicweb/issues"
+  },
+  "homepage": "https://github.com/ismailawa/dynamicweb#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mysql2": "^1.7.0",
+    "pug": "^2.0.4"
+  }
+}
